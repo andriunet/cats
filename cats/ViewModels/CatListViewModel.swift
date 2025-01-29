@@ -7,9 +7,12 @@
 
 import Foundation
 
+@MainActor
 class CatListViewModel: ObservableObject {
     @Published var cats: [Cat] = []
     @Published var errorMessage: String?
+    
+    private let catAPIService = CatAPIService.shared
 
     init() {
         loadCats()
@@ -29,5 +32,9 @@ class CatListViewModel: ObservableObject {
         } catch {
             errorMessage = "Error al cargar los datos: \(error.localizedDescription)"
         }
+    }
+    
+    func fetchImage(for id: String) async -> Data? {
+        return await catAPIService.fetchCatImage(for: id)
     }
 }
