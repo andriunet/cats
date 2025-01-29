@@ -18,6 +18,7 @@ Este proyecto es una aplicación de iOS llamada **Cat Gallery**, diseñada para 
 - **Swift**: El lenguaje de programación principal.
 - **SwiftUI**: Para la creación de la interfaz de usuario.
 - **Combine**: Para el manejo de datos reactivos.
+- **NSCache**: Para guardar las imagenes en cache.
 - **Async/Await**: Utilizado para la carga asíncrona de datos e imágenes.
 - **Xcode**: Herramienta de desarrollo utilizada.
 
