@@ -1,4 +1,4 @@
-# Cat Gallery App
+# Cats App
 
 Este proyecto es una aplicación de iOS llamada **Cat Gallery**, diseñada para mostrar una galería de gatos con su información detallada, incluyendo imágenes, etiquetas y propietario. La app permite a los usuarios buscar gatos por etiquetas y nombres de propietarios, navegar a través de una lista de gatos y ver detalles completos en una pantalla secundaria.
 
@@ -31,7 +31,7 @@ Este proyecto es una aplicación de iOS llamada **Cat Gallery**, diseñada para 
 
 1. Clona este repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/cat-gallery.git
+    git clone https://github.com/andriunet/cats.git
     ```
 
 2. Abre el proyecto en Xcode.
