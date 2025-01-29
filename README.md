@@ -11,7 +11,6 @@ Este proyecto es una aplicación de iOS llamada **Cat Gallery**, diseñada para 
   - Etiquetas asociadas
   - Nombre del propietario
   - Fechas de creación y actualización
-- **Interfaz Moderna**: Diseño atractivo con un toque moderno utilizando SwiftUI.
   
 ## Tecnologías Utilizadas
 
